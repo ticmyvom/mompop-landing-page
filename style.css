@@ -1,3 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action {
+    flex: 1;
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin: 50px 150px;
+    padding: 16px 16px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.signup-text h3, .signup-text p {
+    margin: 0;
+    color: white;
+}
+
+.signup-btn button {
+    border-radius: 4px;
+    background-color: #3882f6;
+    display: inline-block;
+    padding: 6px 16px;
+    color: white;
+    border: 2px solid white;
+}
+
 .footer {
     background-color: #1f2937;
     display: flex;
