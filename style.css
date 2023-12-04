@@ -138,10 +138,11 @@ body {
     display: flex;
     background-color: #3882f6;
     border-radius: 8px;
-    margin: 100px 200px;    
+    margin: 12vh 42vh;   
     height: 100px;
     align-items: center;
     justify-content: space-evenly;
+    height: 18vh;
 }
 
 .signup-text h3, .signup-text p {
