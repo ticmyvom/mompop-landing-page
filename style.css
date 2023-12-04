@@ -2,6 +2,30 @@
 
 body {
     font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.quotes-block {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10vh 40vh;
+}
+
+.quotes {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.author {
+    /* display: flex;
+    justify-content: flex-end; */
+    margin-left: auto;
+    font-weight: bold;
+    color: #1f2937;
+    font-size: 24px;
 }
 
 .signup-container {
@@ -15,8 +39,7 @@ body {
     display: flex;
     background-color: #3882f6;
     border-radius: 8px;
-    margin: 50px 150px;
-    padding: 16px 16px;
+    margin: 100px 200px;    
     height: 100px;
     align-items: center;
     justify-content: space-evenly;
@@ -25,6 +48,10 @@ body {
 .signup-text h3, .signup-text p {
     margin: 0;
     color: white;
+}
+
+.signup-text h3 {
+    font-size: 26px;
 }
 
 .signup-btn button {
