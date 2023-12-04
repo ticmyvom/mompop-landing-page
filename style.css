@@ -5,6 +5,50 @@ body {
     margin: 0;
 }
 
+.info, .element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    margin: 8vh;
+}
+
+.info-header {
+    margin-top: 0;
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.element-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.element {
+    width: 200px;
+    flex: auto;
+    gap: 8px;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 16px;
+}
+
+.img-description {
+    text-align: center;
+    color: #1f2937
+}
+
 .quotes-block {
     background-color: #e5e7eb;
     display: flex;
