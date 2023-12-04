@@ -5,6 +5,61 @@ body {
     margin: 0;
 }
 
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 0vh 25vh 10vh 25vh;
+}
+
+.navigation {
+    display: flex;
+    gap: 16px;
+    padding: 3vh 0vh;
+}
+
+.hero {
+    display: flex;
+    gap: 10vh;
+    padding-top: 10vh;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    gap: 16px;
+}
+
+.signup-btn.no-border button {
+    border: none;
+}
+
+.header-logo, .hero-left {
+    margin-right: auto;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-img {
+    height: 250px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
 .info, .element {
     display: flex;
     flex-direction: column;
