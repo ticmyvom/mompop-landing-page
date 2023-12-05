@@ -81,8 +81,9 @@ body {
 .element-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
+    gap: 8vh;
     
 }
 
@@ -92,9 +93,9 @@ body {
     gap: 8px;
 }
 
-.img {
-    height: 150px;
-    width: 150px;
+.info-img {
+    height: 200px;
+    width: 200px;
     border: 5px solid #3882f6;
     border-radius: 16px;
 }
