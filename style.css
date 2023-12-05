@@ -33,7 +33,7 @@ body {
     gap: 16px;
 }
 
-.signup-btn.no-border button {
+.subscribe-btn.no-border button {
     border: none;
 }
 
@@ -127,7 +127,7 @@ body {
     font-size: 24px;
 }
 
-.signup-container {
+.subscribe-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -145,16 +145,16 @@ body {
     height: 18vh;
 }
 
-.signup-text h3, .signup-text p {
+.subscribe-text h3, .subscribe-text p {
     margin: 0;
     color: white;
 }
 
-.signup-text h3 {
+.subscribe-text h3 {
     font-size: 26px;
 }
 
-.signup-btn button {
+.subscribe-btn button {
     border-radius: 4px;
     background-color: #3882f6;
     display: inline-block;
