@@ -10,13 +10,19 @@ body {
     flex-direction: column;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 0vh 25vh 10vh 25vh;
+    padding: 0vh 21vh 10vh 21vh;
 }
 
 .navigation {
     display: flex;
-    gap: 16px;
     padding: 3vh 0vh;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 20px;
 }
 
 .hero {
@@ -42,8 +48,8 @@ body {
 }
 
 .header-logo {
-    font-size: 24px;
-    font-weight: bold;
+    height: 12vh;
+    width: auto;
 }
 
 .hero-header {
@@ -51,9 +57,13 @@ body {
     font-weight: bolder;
 }
 
+.hero-subtext {
+    font-size: 20px;
+}
+
 .hero-img {
-    height: 250px;
-    width: 550px;
+    height: 42vh;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
